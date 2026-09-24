@@ -12,10 +12,15 @@
 
 	"modules-left": ["custom/l_end","sway/workspaces","sway/scratchpad", "custom/r_end","custom/l_end","sway/window", "custom/r_end","custom/padd"],
 	"modules-center": ["custom/padd","custom/l_end","idle_inhibitor","clock","mpris","custom/r_end","custom/padd"],
-	"modules-right": ["custom/padd","custom/l_end","cpu","temperature","memory","custom/r_end","custom/l_end","tray","network","pulseaudio","custom/notifications","battery","sway/language","custom/r_end","custom/padd"],
+	"modules-right": ["custom/padd","custom/l_end","cpu","temperature","memory","custom/r_end","custom/l_end","tray","network","pulseaudio","custom/notifications","battery","sway/language", "custom/xcompose","custom/r_end","custom/padd"],
 
-
-
+    "custom/xcompose": {
+        "format": "   ",
+        "exec": "python3 -c 'import json, os, html; text = open(os.path.expanduser(\"~/.XCompose\")).read(); print(json.dumps({\"tooltip\": html.escape(text)}))'",
+        "return-type": "json",
+        "interval": "once"
+    },
+    
     "custom/artix": {
         "format": " ",
 		    "on-click": "alacritty --class floating-terminal -e bash -c 'fastfetch; read -p \"\"'"
@@ -134,11 +139,11 @@
     },
 
     "mpris": {
-        //"format": "{player_icon} {artist} - {title}",
-        "format": "{player_icon} {title}",
+        "format": "{player_icon} {artist} - {title}",
+        // "format": "{player_icon} {title}",
         "rotate": 0,
-		    "on-click": "eww open song",
-		    "on-click-right": "eww close song",
+		    // "on-click": "eww open song",
+		    // "on-click-right": "eww close song",
         "format-paused": "{9} {title}",
         "player-icons": { 
             "default": "⏸",
