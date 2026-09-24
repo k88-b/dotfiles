@@ -1,0 +1,106 @@
+# 1. МНОЖЕСТВА И ОПЕРАЦИИ (Sets & Set Theory)
+<Multi_key> <i> <s> : "∈"   # Element Of (In / Принадлежность)
+<Multi_key> <n> <o> : "∉"   # Not An Element Of
+<Multi_key> <s> <u> : "⊂"   # Subset Of
+<Multi_key> <s> <e> : "⊆"   # Subset Of Or Equal To
+<Multi_key> <n> <s> : "⊄"   # Not A Subset Of
+<Multi_key> <u> <n> : "∪"   # Union (Объединение)
+<Multi_key> <i> <n> : "∩"   # Intersection (Пересечение)
+<Multi_key> <s> <d> : "∖"   # Set Difference (Разность множеств)
+<Multi_key> <o> <m> : "∅"   # Empty Set (Пустое множество)
+
+<Multi_key> <U> <0> : "⋃"   # Big / Indexed Union
+<Multi_key> <I> <0> : "⋂"   # Big / Indexed Intersection
+
+# 2. ЧИСЛОВЫЕ МНОЖЕСТВА (Number Sets)
+<Multi_key> <n> <a> : "ℕ"   # Naturals
+<Multi_key> <z> <h> : "ℤ"   # Integers (Zahlen)
+<Multi_key> <q> <u> : "ℚ"   # Rationals (Quotients)
+<Multi_key> <r> <e> : "ℝ"   # Reals
+<Multi_key> <c> <o> : "ℂ"   # Complex numbers
+
+# 3. ЛОГИКА И КВАНТОРЫ (Logic & Quantifiers)
+<Multi_key> <a> <l> : "∀"   # For All
+<Multi_key> <e> <x> : "∃"   # There Exists
+<Multi_key> <a> <n> : "∧"   # Logical And / Conjunction
+<Multi_key> <o> <r> : "∨"   # Logical Or / Disjunction
+<Multi_key> <n> <o> <t>: "¬"   # Logical Not (Отрицание)
+<Multi_key> <i> <m> : "⇒"   # Implies / Rightwards Double Arrow
+<Multi_key> <b> <i> : "⇔"   # If And Only If / Double Implication
+<Multi_key> <e> <n> : "⊢"   # Entails (Выводимость / Теорема)
+<Multi_key> <t> <a> : "⊤"   # Tautology / Top (Истина)
+<Multi_key> <f> <a> : "⊥"   # Contradiction / Bottom / Perpendicular (Ложь)
+
+# 4. ОТНОШЕНИЯ, НЕРАВЕНСТВА И ДЕЛИМОСТЬ (Relations & Divisibility)
+<Multi_key> <1>     : "≠"   # Not Equal To
+<Multi_key> <n> <e> : "≠"   # Not Equal To (Альтернативный вариант)
+<Multi_key> <a> <p> : "≈"   # Approximately Equal
+<Multi_key> <l> <e> : "≤"   # Less Than Or Equal To
+<Multi_key> <g> <e> : "≥"   # Greater Than Or Equal To
+<Multi_key> <m> <o> : "≡"   # Congruent / Modulo
+<Multi_key> <n> <m> : "≢"   # Not Congruent
+<Multi_key> <d> <v> : "∣"   # Divides (Делит)
+<Multi_key> <n> <d> : "∤"   # Does Not Divide (Не делит)
+<Multi_key> <d> <i> : "⋮"   # Vertical Ellipsis / Divisible
+
+# 5. СТРЕЛКИ И ОТОБРАЖЕНИЯ (Arrows & Mappings)
+<Multi_key> <l> <f> : "←"   # Leftwards Arrow (Left)
+<Multi_key> <r> <i> : "→"   # Rightwards Arrow (Right)
+<Multi_key> <m> <a> : "↦"   # Maps To (Отображение x ↦ f(x))
+
+# 6. ВЫЧИСЛЕНИЯ И АНАЛИЗ (Calculus & Analysis)
+<Multi_key> <m> <u> : "×"   # Multiply
+<Multi_key> <c> <d> : "⋅"   # Dot Product / Multiplication
+<Multi_key> <s> <q> : "√"   # Square Root
+<Multi_key> <S> <m> : "∑"   # N-Ary Summation
+<Multi_key> <P> <m> : "∏"   # N-Ary Product
+<Multi_key> <d> <e> : "∂"   # Partial Differential
+<Multi_key> <i> <n> <t>: "∫"  # Integral
+<Multi_key> <n> <b> : "∇"   # Nabla / Gradient
+<Multi_key> <o> <p> : "⊕"   # Direct Sum / XOR
+<Multi_key> <o> <x> : "⊗"   # Tensor Product
+
+# 7. КОНСТАНТЫ И СПЕЦИАЛЬНЫЕ СИМВОЛЫ (Constants & Special Symbols)
+<Multi_key> <8>     : "∞"   # Infinity
+<Multi_key> <p> <i> : "π"   # Pi
+<Multi_key> <a> <0> : "ℵ"   # Aleph Zero
+<Multi_key> <a> <1> : "ℵ₁"  # Aleph One
+<Multi_key> <l> <a> : "λ"   # Lambda
+<Multi_key> <period> : "·" # Middle Dot
+
+# 8. ГРЕЧЕСКИЕ БУКВЫ (Greek Letters)
+# Строчные
+<Multi_key> <g> <a> : "α"   # Alpha
+<Multi_key> <g> <b> : "β"   # Beta
+<Multi_key> <g> <g> : "γ"   # Gamma
+<Multi_key> <g> <d> : "δ"   # Delta
+<Multi_key> <g> <e> : "ε"   # Epsilon
+<Multi_key> <g> <z> : "ζ"   # Zeta
+<Multi_key> <g> <e> <t> : "η" # Eta
+<Multi_key> <g> <t> : "θ"   # Theta
+<Multi_key> <g> <i> : "ι"   # Iota
+<Multi_key> <g> <k> : "κ"   # Kappa
+<Multi_key> <g> <l> : "λ"   # Lambda
+<Multi_key> <g> <m> : "μ"   # Mu
+<Multi_key> <g> <n> : "ν"   # Nu
+<Multi_key> <g> <x> : "ξ"   # Xi
+<Multi_key> <g> <p> : "π"   # Pi
+<Multi_key> <g> <r> : "ρ"   # Rho
+<Multi_key> <g> <s> : "σ"   # Sigma
+<Multi_key> <g> <t> <a> : "τ" # Tau
+<Multi_key> <g> <f> : "φ"   # Phi
+<Multi_key> <g> <c> : "χ"   # Chi
+<Multi_key> <g> <p> <s> : "ψ" # Psi
+<Multi_key> <g> <w> : "ω"   # Omega
+
+# Заглавные
+<Multi_key> <g> <G> : "Γ"   # Gamma
+<Multi_key> <g> <D> : "Δ"   # Delta
+<Multi_key> <g> <T> : "Θ"   # Theta
+<Multi_key> <g> <L> : "Λ"   # Lambda
+<Multi_key> <g> <X> : "Ξ"   # Xi
+<Multi_key> <g> <P> : "Π"   # Pi
+<Multi_key> <g> <S> : "Σ"   # Sigma
+<Multi_key> <g> <F> : "Φ"   # Phi
+<Multi_key> <g> <P> <S> : "Ψ" # Psi
+<Multi_key> <g> <W> : "Ω"   # Omega
