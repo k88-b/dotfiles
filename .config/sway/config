@@ -176,7 +176,8 @@ blur_xray enable
 blur_passes 1
 blur_radius 1
 corner_radius 10
-smart_corner_radius enable
+smart_corner_radius disable
+default_dim_inactive 0.3
 
 # Window rules
 for_window [tiling] border opacity 0.95
@@ -198,6 +199,7 @@ bindsym $mod+Ctrl+Down exec /home/kostya/.config/waybar/scripts/volumecontrol.sh
 bindsym --to-code $mod+n exec playerctl next
 bindsym --to-code $mod+m exec playerctl previous
 bindsym --to-code $mod+k exec playerctl play-pause
+bindsym --to-code $mod+l exec swaylock --screenshots --clock --timestr "%H:%M" --datestr "%A" --effect-blur 10x5 --effect-vignette 0.3:0.5 --indicator --indicator-radius 120 --indicator-thickness 14 --ring-color 7c7f9b --key-hl-color f4a261 --text-color ffffff --inside-color 000000aa
 bindsym F4 exec sh -c 'pactl set-source-mute @DEFAULT_SOURCE@ toggle && muted=$(pactl get-source-mute @DEFAULT_SOURCE@); if [[ $muted == *"yes"* ]]; then notify-send "Микрофон" "Отключен" -i audio-input-microphone-muted; else notify-send "Микрофон" "Включен" -i audio-input-microphone; fi'
 
 bindsym XF86AudioPlay exec playerctl play-pause
