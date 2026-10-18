@@ -1,6 +1,6 @@
 # Autostart applications
 exec_always swaync
-exec_always eww
+exec_always eww daemon
 exec_always /home/kostya/.config/sway/alternating_layouts.py 
 exec_always dbus-update-activation-environment --systemd SWAYSOK XDG_SESSION_TYPE WAYLAND_DISPLAY DISPLAY XDG_CURRENT_DESKTOP SWAYSOCK I3SOCK XCURSOR_SIZE XCURSOR_THEME
 exec_always dbus-update-actcvation-environment -all
