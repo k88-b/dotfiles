@@ -61,7 +61,7 @@ default_border pixel 2
 titlebar_border_thickness 1
 titlebar_padding 2 2
 
-bindsym --to-code $mod+p exec /home/kostya/.config/sway/wallpaper_change.sh
+# bindsym --to-code $mod+p exec /home/kostya/.config/sway/wallpaper_change.sh
 bindsym --to-code $mod+Shift+p exec python3 /home/kostya/.config/waybar/themes/switch_theme.py
 
 
@@ -71,9 +71,12 @@ bindsym --to-code $mod+Shift+q kill
 bindsym --to-code $mod+space exec $menu
 bindsym --to-code $mod+y exec mercury
 bindsym --to-code $mod+t exec export XDG_CURRENT_DESKTOP=gnome && ayugram
-bindsym --to-code $mod+u exec yandex-music
+bindsym --to-code $mod+u exec yandexmusic
+bindsym --to-code $mod+g exec killall -SIGUSR2 waybar
+bindsym --to-code $mod+p exec eww open-many --toggle song
 bindsym $mod+Shift+c reload
 bindsym $mod+Shift+e exec "swaymsg exit"
+
 
 # Window navigation
 bindsym $mod+$left focus left
